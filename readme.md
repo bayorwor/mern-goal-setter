@@ -12,6 +12,7 @@ The backend is built with [Node.js](https://nodejs.org/en/) and [Express.js](htt
 ![Getting Started](./screenshots/home.png)
 
 <p>Sample Redux slice:</p>
+
 ![Getting Started](./screenshots/goalslice.png)
 
 ### Frameworks and Libraries
