@@ -1,30 +1,89 @@
-# Goalsetter MERN app
+# Mern goals setter with redux toolkit
 
-This is the goalsetter app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=-0exw-9YJBo) series on YouTube.
+Goals setter is a simple app that allows you to set your goals and see your progress.
+It is built with [redux toolkit](https://redux-toolkit.js.org/) and [react-redux](https://react-redux.js.org/) libraries.
+It also uses [react-router-dom](https://reacttraining.com/react-router/web/api/BrowserRouter) library to handle routing.
+The backend is built with [Node.js](https://nodejs.org/en/) and [Express.js](https://expressjs.com/en/api.html).
+
+### Visuals of the app
+
+<p> Home page </p>
+
+![Getting Started](./screenshots/home.png)
+
+<p>Sample Redux slice:</p>
+![Getting Started](./screenshots/goalslice.png)
+
+### Frameworks and Libraries
+
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [Redux](https://redux.js.org/)
+- [Redux-toolkit](https://redux-toolkit.js.org/)
+- [React-router-dom](https://reacttraining.com/react-router/web/api/BrowserRouter)
+- [React-toastify](https://npmjs.com/package/react-toastify)
+
+## Features
+
+- [create account](#create-account)
+- [login](#login)
+- [logout](#logout)
+- [set goals](#set-goals)
+- [see goals](#see-goals)
+- [see progress](#see-progress)
+- [see history](#see-history)
+- [see all goals](#see-all-goals)
+- [delete goals](#delete-goals)
+
+## Installation
+
+Use the package manager [npm](https://www.npmjs.com/) to install all the packages.
+
+```bash
+npm install <nameOfPackage>
+```
 
 ## Usage
 
-Rename the .envexample to .env and add your MONGO_URI
+### To use the payment gateway
 
-### Install dependencies
+```bash
+git clone <name of projects>
 
-```
-# Backend deps
+cd <name of projects>
+
 npm install
 
-# Frontend deps
 cd frontend
+
+cd ..
+
 npm install
+
+npm run dev
 ```
 
-### Run Server
+## Testing
 
+### To test the payment gateway
+
+```bash
+npm run test
 ```
-npm run server
-```
 
-## Demo
+## Contributing
 
-I am not sure how long this will be up
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-https://mernappbrad.herokuapp.com/
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/) license
+
+## Badges
+
+[![Build Status](https://travis-ci.org/shortway/merchant-dashboard.svg?branch=master)](https://travis-ci.org/shortway/merchant-dashboard)
+[![NPM version](https://badge.fury.io/js/shortway.svg)](https://badge.fury.io/js/shortway)
+[![NPM version](https://badge.fury.io/js/shortway.svg)](https://badge.fury.io/js/shortway)
